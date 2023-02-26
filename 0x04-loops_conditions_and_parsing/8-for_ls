@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# This script is displaying content of the present working directory with a modified output
-#ls | sed -e 's/^.*-//'
+# Displays the contents of the current directory in list format.
+#   Only displays the part of the name after the first dash. 
 
 lst=$(ls)
 for i in $lst; do
